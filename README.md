@@ -1,14 +1,14 @@
-# 🌤️ Weather App
+# Weather App
 
 A simple and elegant desktop weather application built with Python and Tkinter.
 
 ## Features
 
-- 🔍 Search weather by city name
-- 🌡️ Display temperature, humidity, and pressure
-- 📊 Add multiple cities to compare
-- 🎨 Clean and modern UI
-- ⌨️ Press Enter to add cities quickly
+- Search weather by city name
+- Display temperature, humidity, and pressure
+- Add multiple cities to compare
+- Clean and modern UI
+- Press Enter to add cities quickly
 
 ## Requirements
 
