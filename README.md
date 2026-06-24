@@ -1,14 +1,13 @@
 # Weather App
 
-A simple and elegant desktop weather application built with Python and Tkinter.
+A small desktop weather app built with Python and Tkinter, using the OpenWeatherMap API.
 
 ## Features
 
-- Search weather by city name
-- Display temperature, humidity, and pressure
-- Add multiple cities to compare
-- Clean and modern UI
-- Press Enter to add cities quickly
+- Search current weather by city name
+- Shows temperature, "feels like", humidity and pressure
+- Compare several cities side by side
+- Add a city with the button or by pressing Enter
 
 ## Requirements
 
@@ -16,46 +15,24 @@ A simple and elegant desktop weather application built with Python and Tkinter.
 pip install requests
 ```
 
-## Usage
+(Tkinter ships with the Python standard library.)
 
-1. Run the application:
+## API key
 
-```bash
-python weather_app.py
-```
-
-2. Enter a city name and click "Add" or press Enter
-3. View weather information for multiple cities
-4. Click the ✕ button to remove a city card
-
-## API Key
-
-The app uses OpenWeatherMap API. You can set your own API key using environment variables:
+The app reads your OpenWeatherMap key from an environment variable, so no secret is committed to the repo:
 
 ```bash
-# Linux/Mac
+# Linux/macOS
 export WEATHER_API_KEY="your_api_key_here"
-
-# Windows (CMD)
-set WEATHER_API_KEY=your_api_key_here
 
 # Windows (PowerShell)
 $env:WEATHER_API_KEY="your_api_key_here"
 ```
 
-Get your free API key at: https://openweathermap.org/api
+Get a free key at <https://openweathermap.org/api>.
 
-## Screenshot
+## Running it
 
-The app displays:
-
-- City name in header
-- Large temperature display
-- Weather description
-- Humidity percentage
-- Atmospheric pressure
-- "Feels like" temperature
-
-## License
-
-Free to use and modify.
+```bash
+python main.py
+```
